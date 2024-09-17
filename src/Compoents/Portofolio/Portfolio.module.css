@@ -1,0 +1,27 @@
+.line1 {
+    background-color: #2C3E50;
+    height: 5px;
+    width: 150px;
+}
+
+.starColor {
+    color: #2C3E50;
+}
+
+.layout {
+    background-color:#1ABC9C ;
+    z-index: 9999 !important;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.plus {
+ font-size: 8rem;
+ font-weight: 900;
+}
+
+.card:hover .layout {
+    cursor: pointer;
+    opacity: 0.9;
+}

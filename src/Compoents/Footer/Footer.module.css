@@ -1,0 +1,28 @@
+.bgColor {
+ background-color: #2C3E50 !important ;  
+}
+.hidden {
+    overflow: hidden;
+}
+
+
+
+.facebook:hover , .linkedin:hover  {
+    transition: all 0.3s;
+    background-color: blue;
+    cursor: pointer;
+}
+.twitter:hover {
+    transition: all 0.3s;
+    background-color: rgb(28, 169, 224);
+    cursor: pointer;
+}
+.youtube:hover {
+    transition: all 0.3s;
+    background-color: red;
+    cursor: pointer;
+}
+
+.copyRightBgColor {
+    background-color: #1A252F;
+}
